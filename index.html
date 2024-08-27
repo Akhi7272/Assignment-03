@@ -51,7 +51,7 @@
     <img class="block mx-auto" src="./assets/banner.png" width="350px" height="350px">
   </div>
   <div class="w-9/10 lg:w-9/12 mx-auto">
-    <h1 class="font-extrabold text-4xl">A barn house of this design has a<br>striking appearance</h1>
+    <h1 class="font-extrabold text-4xl">A barn house of this design has a<br class="hidden lg:block">striking appearance</h1>
     <p class="font-medium text-sm text-[#494949] p-2">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, <br>sleek metal accents, and large windows that flood the space with natural light.</p>
     <br>
     <a class="bg-lime-300 rounded-full p-2">View Details <i class="fa-solid fa-arrow-right rounded-full bg-lime-500 text-white p-2 -rotate-45"></i></a>
@@ -59,13 +59,13 @@
 </section>
     </header>
     <main class="w-full">
-      <section class="relative m-3 lg:mt-12 bg-gray-200">
-        <div class="hidden lg:absolute pb-4">
-          <img class="" src="./assets/Vector.png" width="100px" height="10px">
+      <section class="m-3 lg:mt-12 bg-gray-200">
+        <div class="hidden lg:block p-1">
+          <img class="ml-40" src="./assets/Vector.png" width="100px" height="10px">
          </div>
     <div class="lg:flex w-9/10 lg:w-9/12 mx-auto p-6 sm:hidden">
       <div>
-      <div class="text-center lg:text-start">
+      <div class="text-center lg:text-start py-4">
       <small class="bg-white p-1 rounded-full sm:text-center"><i class="fa-solid fa-arrow-right"></i> About Us</small>
       <h1 class="text-4xl font-bold">We design thoughtful, liveable spaces</h1>
       <p class="py-3">
@@ -83,7 +83,7 @@ modern sophistication, featuring weathered wood, sleek metal accents.
         The barn house captivates with its blend of rustic charm and modern.</p>
       </div>
       </div>
-      <div class="flex bg-white mb-3 mr-3 rounded-xl p-3">
+      <div class="flex m-3 lg:mr-3 lg:mb-3 rounded-xl bg-white p-3">
         <div>
           <img src="./assets/residential.png">
         </div>
@@ -95,7 +95,7 @@ modern sophistication, featuring weathered wood, sleek metal accents.
       </div>
     </div>
     <div>
-      <img class="rounded-xl" src="./assets/Rectangle.png">
+      <img class="rounded-xl transform scale-90 h-full" src="./assets/Rectangle.png">
     </div>
     </div>
       </section>
@@ -103,7 +103,7 @@ modern sophistication, featuring weathered wood, sleek metal accents.
       <div class="pt-12 text-center">
       <small class="bg-white p-1 rounded-full"><i class="fa-solid fa-arrow-right"></i> How we works</small>
       <h1 class="pt-2 font-bold text-3xl">Our Works Process</h1>
-    <p class="font-medium text-sm text-[#494949] p-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+    <p class="font-medium text-sm text-[#494949] p-4">The barn house captivates with its blend of rustic charm and modern sophistication,<br class="hidden lg:block"> featuring weathered wood, sleek metal accents.</p>
      </div>
      <div class="w-9/10 lg:w-9/12 lg:gap-5 m-3 lg:mx-auto pb-12 lg:flex">
       <div class="rounded-xl mb-5 lg:w-1/4 p-5 bg-[#E7C1D3]">
@@ -133,55 +133,62 @@ modern sophistication, featuring weathered wood, sleek metal accents.
         <div class="pt-12 text-center">
       <small class="bg-lime-400 lg:bg-gray-300 p-1 rounded-full"><i class="fa-solid fa-arrow-right"></i> Explore our Latest works</small>
       <h1 class="pt-2 font-bold text-3xl">Our Latest Portfolio</h1>
-    <p class="font-medium text-sm text-[#494949] p-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+    <p class="font-medium text-sm text-[#494949] p-4">The barn house captivates with its blend of rustic charm and modern sophistication,<br class="hidden lg:block"> featuring weathered wood, sleek metal accents.</p>
      </div>
-     <div class="m-3 lg:grid grid-cols-4 grid-rows-2 py-12 gap-x-8 lg:gap-y-8">
-        <div class="row-span-1 border border-slate-200 border-b-transparent lg:border-r-transparent p-3 rounded-lg">
-        <img class="" src="./assets/img1.png">
+     <div class="m-3 lg:grid grid-cols-4 grid-rows-2 gap-x-8 lg:gap-y-8">
+    <div class="bg-white rounded-lg lg:flex col-span-3 p-5 gap-3 border border-slate-200 mb-4">
+      <div>
+        <img class="p-4 w-full" src="./assets/img1.png">
       </div>
-      <div class="col-span-2 mb-10 border border-slate-200 border-t-transparent lg:border-r-transparent p-3 rounded-lg">
+      <div class="row-span-2 items-center p-4 w-full">
         <h6 class="font-medium text-xl">Commercial</h6>
-        <p class="font-medium text-sm py-4">The barn house captivates with its blend of rustic charm and modern.The barn house captivates with its blend of rustic charm and modern.</p>
-      <a class="rounded-full">View Details <i class="fa-solid fa-arrow-right rounded-full bg-lime-500 text-black p-1 -rotate-45"></i></a> 
+        <p class="font-medium text-sm py-4">The barn house captivates with its blend of rustic charm and modern.</p>
+      <a class="rounded-full">View Details  <i class="fa-solid fa-arrow-right rounded-full bg-lime-500 text-black p-1 -rotate-45"></i></a>
+      </div>
+    </div>
+  <div class="bg-white border border-slate-200 p-3 rounded-lg mb-4">
+    <img class="p-4 w-full" src="./assets/img2.png">
   </div>
-  <div class="row-span-1 mb-10 border border-slate-200 p-3 rounded-lg">
-    <img src="./assets/img2.png">
+  <div class="bg-white border border-slate-200 lg:hidden rounded-lg mb-4">
+     <img class="p-4 w-full" src="./assets/img5.png">
   </div>
-  <div class="border border-slate-200 mb-10 p-3 rounded-lg">
-    <img src="./assets/img4.png">
+  <div class="bg-white border border-slate-200 hidden lg:block p-3 rounded-lg">
+    <img class="h-full p-5 transform scale-140" src="./assets/img3.png">
   </div>
-  <div class="border border-slate-200 border-b-transparent lg:border-r-transparent p-3 rounded-lg">
-    <img src="./assets/img3.png">
+  <div class="bg-white rounded-lg lg:flex p-5 col-span-2 gap-3 border border-slate-200 mb-4">
+    <div class="w-full">
+    <img class="p-4 w-full" src="./assets/img4.png">
   </div>
-  <div class="border border-slate-200 border-t-transparent lg:border-l-transparent mb-10 p-3 rounded-lg">
+  <div class="p-4 w-full">
     <h6 class="font-medium text-xl">Commercial</h6>
         <p class="font-medium text-sm py-4">The barn house captivates with its blend of rustic charm and modern.</p>
       <a class="rounded-full">View Details  <i class="fa-solid fa-arrow-right rounded-full bg-lime-500 text-black p-1 -rotate-45"></i></a> 
   </div>
-  <div class="border border-slate-200 p-3 rounded-lg">
-     <img class="block mx-auto" src="./assets/img5.png">
   </div>
-  <div class="border-slate-200 hidden p-3 rounded-lg">
-     <img class="block mx-auto" src="./assets/img5.png">
+  <div class="bg-white border border-slate-200 lg:hidden p-3 rounded-lg mb-4">
+    <img class="p-4 w-full" src="./assets/img3.png">
   </div>
-     </div>
+  <div class="bg-white border border-slate-200 rounded-lg">
+     <img class="p-4 w-full" src="./assets/img5.png">
+  </div>
+  </div>
       </div>
      </section>
-     <section class="pb-12">
-      <div class="w-full h-screen bg-image: url('assets/bg.jpg')">
-      <div class="w-9/10 m-3 lg:w-9/12 mx-auto text-center px-6">
-        <div class="py-12 text-center">
+     <section class="py-8 mb-4">
+      <div class="w-full py-5 bg-[url('./assets/bg.jpg')] bg-cover ">
+      <div class="w-9/10 m-3 lg:w-9/12 mx-auto text-center">
+        <div class="pt-12 text-center">
       <small class="bg-lime-400 lg:bg-gray-300 p-1 rounded-full"><i class="fa-solid fa-arrow-right"></i> Let’s Connect</small>
-      <h1 class="pt-2 font-extrabold text-4xl">Let’s Discuss Next Project</h1>
-    <p class="font-medium text-sm text-[#494949] p-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+      <h1 class="pt-2 font-extrabold text-4xl">Let’s Discuss Next <br class="lg:hidden">Project</h1>
+    <p class="font-medium text-sm text-[#494949] p-4">The barn house captivates with its blend of rustic charm and modern sophistication,<br class="hidden lg:block"> featuring weathered wood, sleek metal accents.</p>
       </div>
       <div class="w-9/10 m-3 lg:w-9/12 items-center text-center mx-auto">
-        <div class="grid grid-cols-2 grid-rows-3 mt-2">
-          <input type="text" placeholder="First Name*" class="input rounded-full bg-white mb-5 w-full max-w-xl" />
-          <input type="text" placeholder="Last Name*" class="input rounded-full bg-white w-full max-w-xl" />
-          <input type="text" placeholder="Phone Number*" class="input rounded-full bg-white w-full max-w-xl" />
-          <input type="text" placeholder="Email Number*" class="input rounded-full bg-white w-full max-w-xl" />
-          <input type="text" placeholder="Write your message here" class="input rounded-2xl bg-white w-full max-w-xl h-28 col-span-2" />
+        <div class="lg:grid grid-cols-2 gap-5 m-3">
+          <input type="text" placeholder="First Name*" class="input rounded-full bg-white w-full max-w-xl mb-4"/>
+          <input type="text" placeholder="Last Name*" class="input rounded-full bg-white w-full max-w-xl mb-4"/>
+          <input type="text" placeholder="Phone Number*" class="input rounded-full bg-white w-full max-w-xl mb-4"/>
+          <input type="text" placeholder="Email Number*" class="input rounded-full bg-white w-full max-w-xl mb-4"/>
+          <input type="text" placeholder="Write your message here" class="input text-start rounded-2xl bg-white w-full h-28 col-span-2"/>
         </div>
         <div class="mt-5 bg-[#ABEF5F] rounded-full p-2 w-1/2 mx-auto">Send Mail <i class="fa-solid fa-arrow-right rounded-full bg-[#1C1C1C] p-1 text-white -rotate-45"></i>
         </div>
@@ -191,6 +198,7 @@ modern sophistication, featuring weathered wood, sleek metal accents.
      </section>
     </main>
     <footer class="bg-black text-white">
+      <section>
       <div class="text-center w-9/10 m-3 lg:w-9/12 mx-auto py-12">
         <a class="text-center btn btn-ghost text-xl font-extrabold"><i class="text-black fa-solid fa-arrow-right rounded-full bg-[#ABEF5F] p-2 -rotate-45"></i>Rinterio</a>
         <br>
@@ -207,6 +215,31 @@ modern sophistication, featuring weathered wood, sleek metal accents.
     <br>
     <br>
     <a class="bg-[#ABEF5F] text-black font-extrabold rounded-full px-12 py-4">Book Consult   <i class="fa-solid fa-arrow-right rounded-full bg-[#1C1C1C] text-white p-2 -rotate-45"></i></a>
+  </div>
+  </section>
+  <section class="text-center w-9/10 m-3 lg:w-9/12 mx-auto py-12">
+    <div class="text-center">
+      <h4 class="text-start btn btn-ghost text-xl font-extrabold">Get In Touch</h4>
+      <p><i class="fa-solid fa-house"></i>   Level-4,34,Awal Centre,Banani,Dhaka</p>
+      <p><i class="fa-regular fa-envelope"></i>   web@programming-hero.com</p>
+      <p><i class="fa-solid fa-phone"></i>   01322-901105,01322-810867</p>
+      <p><i class="fa-solid fa-calendar-days"></i>   Sat - Thu,10:00 AM To 7:00 PM</p>
+    </div>
+    <div>
+      <br>
+      <h4 class="text-center btn btn-ghost text-xl font-extrabold">Follow Us</h4>
+      <div class="flex justify-around">
+      <ul class="gap-10 lg:flex px-1 ">
+      <li class="font-bold"><a href="https://www.facebook.com/programmingherowebcourse"><i class="fa-brands fa-facebook"></i></a></li>
+      <li class="font-bold"><a href="https://www.instagram.com/programminghero/"><i class="fa-brands fa-instagram"></i></a></li>
+      <li class="font-bold"><a href="https://www.linkedin.com/company/programminghero/"><i class="fa-brands fa-linkedin"></i></a></li>
+      <li class="font-bold"><a href="https://www.youtube.com/c/ProgrammingHeroCommunity"><i class="fa-brands fa-youtube"></i></a></li>
+    </ul>
+    </div>
+    </div>
+  </section>
+  <div class="text-center w-9/10 m-3 lg:w-9/12 mx-auto pb-5">
+    <small><i class="fa-regular fa-copyright"></i>   programming Hero 2024</small>
   </div>
 </footer>
 </body>
